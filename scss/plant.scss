@@ -1,0 +1,10 @@
+// Bootstrap include if using npm
+@import '../node_modules/bootstrap/scss/bootstrap';
+
+#footer-section {
+    position: relative;
+    z-index: 2;
+    color: $white;
+    background-color: theme-color("secondary");
+    box-shadow: 0 50vh 0 50vh theme-color("secondary");
+}
