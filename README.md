@@ -11,19 +11,19 @@ We are using Bootstrap 4.6 https://getbootstrap.com/docs/4.6/getting-started/int
 You can include Bootstrap styles with Node Package Manager by running
 npm install 
 
-and using a sass complier to generate the css/plant.css from sass/plant.scss file with the 
+and using a sass compiler to generate the css/plant.css from sass/plant.scss file with the 
 Bootstrap css included 
 
 OR 
 
 if you're not sure how or don't want to use NPM then you can uncomment the cdn include of the 
 Bootstrap stylesheet in index.html and just write your css directly into css/plant.css or
-build from sass/plant.scss and comment out the Bootsrap include
+build from sass/plant.scss and comment out the Bootstrap include
 (but this method won't allow you to overwrite things such as Bootstrap sass variables)
 
 ## The task
 
-Please expand thecurrent shell index.html to include a Carousel of the 
+Please expand the current scaffold index.html to include a Carousel of the 
 plant images in assets/images with slide navigation. 
 You could use: https://getbootstrap.com/docs/4.6/components/carousel/ 
 
