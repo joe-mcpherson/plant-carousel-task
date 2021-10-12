@@ -23,6 +23,9 @@ build from sass/plant.scss and comment out the Bootstrap include
 
 ## The task
 
+Primary theme colour: #0c8a59
+Secondary theme colour: #014d5d
+
 Please expand the current scaffold index.html to include a Carousel of the 
 plant images in assets/images with slide navigation. 
 You could use: https://getbootstrap.com/docs/4.6/components/carousel/ 
@@ -31,21 +34,22 @@ Please make the "Wordy description column" more readable by introducing a "read 
 Make the button the Primary theme colour.
 You could use: https://getbootstrap.com/docs/4.0/components/collapse/
 
-Primary theme colour: #0c8a59
-Secondary theme colour: #014d5d
-
-Make the links in the body and the header bottom border the Primary theme color
+Make any buttons and links in the body and the header bottom border the Primary theme color
 
 Make the footer background the Secondary theme colour links white
 
 Check everything looks ok on mobile, tablet and desktop
+
+With the HTML plant dimentions data table add a button below to swith between Metric and 
+Imperial values (I've commented out the Imperial value column in the HTML)
+feel free to add some jQuery (or vanilla JavaScript) in js/plant.js if needed
 
 ## Bonus points (get creative!)
 
 Some ideas:
 
 - Add some Google Fonts for the headings
-- You shouldn't need any JavaScript for the primary task above, but feel free to add 
-  some javascript in js/plant.js to make something happen :)
+- add some javascript to calculate the metric to Imperial measurements
+  so any values could be in the metric columns and they are converted dynamically in js
 - Add a Lightbox (or similar popup) for the Carousel
 - or something else to demo your web development skills :)
