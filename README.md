@@ -40,7 +40,7 @@ Make the footer background the Secondary theme colour links white
 
 Check everything looks ok on mobile, tablet and desktop
 
-With the HTML plant dimentions data table add a button below to swith between Metric and 
+With the HTML plant dimentions data table add a button below to swich between Metric and 
 Imperial values (I've commented out the Imperial value column in the HTML)
 feel free to add some jQuery (or vanilla JavaScript) in js/plant.js if needed
 
